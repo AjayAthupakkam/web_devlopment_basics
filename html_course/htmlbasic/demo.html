@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 100vh;
+            width: 100vw;
+            border:2px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+          
+        }
+        .box{
+            max-height: 600px;
+            width: 300px;
+            margin: 450px;
+            padding: 5px;
+            border: 0.5em;
+            box-shadow: 3px 5px 3px 3px black;
+            justify-content: center;
+            text-align: center;
+            background-color: gainsboro;
+            border-radius: 5px;
+        }
+        label{
+            text-transform: capitalize;
+            font-weight: bolder;
+        }
+        button{
+           margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AJAY</h1>
+        <div class="box">
+            <h3>Voting form</h3>
+            <label for="un">Username :</label>
+            <input type="text" id="un">
+            <br>
+            <br>
+            <label for="up">Password :</label>
+            <input type="password" id="up">
+            <br>
+            <br>
+            <button>Sign in</button>
+            <button>Sign up</button>
+        </div>
+    </div>
+</body>
+</html>

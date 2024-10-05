@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background-gradient</title>
+    <style>
+    div{
+        height:500px;
+        width:500px;
+        background-color:red;
+        background:linear-gradient(red,yellow,blue,orange,white,green);
+        background:linear-gradient(to right,blue,yellow);
+        background:linear-gradient(to LEFT,blue,yellow);
+        background:linear-gradient(to bottom,blue,yellow);
+        background:linear-gradient(to bottom left,blue,yellow);
+
+        background:repeating-linear-gradient(red,yellow,blue,orange);
+        background: radial-gradient(red 20%,yellow 60%,blue 5%,orange);
+        
+        
+        background-image: conic-gradient( red 20%,yellow 60%,rgb(0, 0, 255) 15%,orange);
+        border-radius: 80%;
+       
+        
+        background-image: conic-gradient( at 60% 45% red deg,yellow 60%,rgb(0, 0, 255) 15%,orange);
+        
+        background-image: repeating-conic-gradient( at 60% 45% red deg,yellow);
+    }
+    </style>
+</head>
+<body>
+    <h1>hello world</h1>
+    <div><b>AJAY</b></div>
+</body>
+</html>
+
+<!--
+1. linear gradient
+2. repeating-linear-gradient
+3. radial-gradient
+4. repeating-radial-gradient
+5. conic-gradient
+6. repeating-conic-gradient
+
+-->

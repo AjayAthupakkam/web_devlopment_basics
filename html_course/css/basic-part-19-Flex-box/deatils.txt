@@ -1,0 +1,15 @@
+flex-box
+    display: block
+                inline
+                    inline-block
+
+flex-direction
+    flex-direction: row  ->ex: (1,2,3)
+    flex-direction: row-reverse  ->ex: (3,2,1)
+
+flex-wrap
+    flex-wrap:nowrap;
+                wrap,wrap-reverse
+
+justify-content
+        justify-content:flex-start,flex-end,space-between,space-around;

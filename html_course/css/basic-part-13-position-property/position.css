@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.main{
+    min-height:400px;
+    width:500px;
+    border:2px solid black;
+    font-weight:bold;
+    margin: 10px 10px;
+}
+.box{
+    width:100px;
+    height:100px;
+    font-weight:bold;
+    color:white;
+}
+.box1{
+    background: orange;
+}
+.box2{
+    background: blue;
+}
+.box3{
+    background: black;
+}
+
+/*
+posotion property
+1. static(default)
+2. Relative
+3. fixed
+4. sticky(navigation bar)
+5. Z-index(ex:- 3 first priority
+                2 second priority
+                1 third priority)
+*/
+
+.main{
+    position:relative;
+}
+
+.box1{
+    position:fixed;
+    left:100px;
+}

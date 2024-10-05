@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinator selector</title>
+    <style>
+        .box p{
+            color: red;
+        }
+        .box p span{
+            color: blue;
+            font-weight: bold;
+        }
+        .box+p{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h2>combinators selector</h2>
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet consectetur,<span>AJAY</span> adipisicing elit. Aut non repellat saepe nobis ad provident sint vero nostrum illo in?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut non repellat saepe nobis ad provident sint vero nostrum illo in?</p>
+    </div>
+    <p> Outter Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime illum vero, a dignissimos commodi dolore.</p>
+</body>
+</html>
+<!--1. simple selectors
+    *element
+    *class
+    *id
+    *universal
+2. combinators selectors
+    *descendant
+    *direct child (.box>p)
+    *adjecent siblings(.box+p)
+    *general siblings(.box~p)
+3.Attribute selectors
+4.Pseudo class selectors 
+5.Pseudo element selectors -->

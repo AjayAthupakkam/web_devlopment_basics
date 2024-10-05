@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selectors</title>
+    <style>
+        #txt:focus{
+            outline:none;
+            border:1px solid blue;
+        }
+        input[type="checkbox"]:checked{
+            box-shadow: 0 0 0 3px red;
+        }
+        input[type="text"]:enabled{
+            background-color: aliceblue;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <span>:focus : </span>
+    <input type="text" id="txt">
+    <hr>
+    <span>:checked : </span>
+
+    <input type="checkbox" id="cpp">
+    <label for="cpp">cpp</label>
+
+    <input type="checkbox" id="java">
+    <label for="java">java</label>
+
+    <input type="checkbox" id="py">
+    <label for="py">py</label>
+    <hr>
+    <input type="text" id="t2">
+    <input type="text" id="t3" disabled>
+    <input type="text" id="t3" required>
+</body>
+</html>

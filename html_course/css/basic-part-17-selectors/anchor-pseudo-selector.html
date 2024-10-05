@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anchor pseudo</title>
+    <style>
+        div a{
+            display: inline-block;
+            height: 30px;
+            width: 75px;
+            background-color: aliceblue;
+            text-align: center;
+            line-height: 30px;
+        }
+        a:link{
+            color:green;
+        }
+        a:hover{
+            background-color: teal;
+            color: white;
+        }
+        a:active{
+            color: orangered;
+        }
+        a:visited{
+            color: darkgoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <h2>:link|:hover|:visited|:active</h2>
+    <div>
+   <a href="#l1">link-1</a>
+   <a href="#l2">link-2</a>
+   <a href="#l3">link-3</a>
+   <a href="#l4">link-4</a>
+</div>
+</body>
+</html>

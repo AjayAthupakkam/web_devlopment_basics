@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IS selector</title>
+    <style>
+        #d1 :is(h2,h3){
+            color: blue;
+        }
+        :is(#d1,#d2) h2{
+            color: burlywood;
+        }
+        :is(#d1,#d2) :is(h2,p){
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">
+        <h2>H2</h2>
+        <h3>H3</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur laboriosam perspiciatis aspernatur, culpa illo maxime dolores! Ab quisquam tempore sunt, obcaecati eius, temporibus architecto quam ad sit, est consectetur consequatur.</p>
+        <h4>H4</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima iusto quibusdam numquam aspernatur? Nam vel est explicabo dolorum sit culpa!</p>
+    </div>
+    <div id="d2">
+        <h2>H2</h2>
+        <p><b>Outside</b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati asperiores temporibus magni officiis distinctio ipsa labore placeat earum dolore. Impedit.</p>
+    </div>
+</body>
+</html>

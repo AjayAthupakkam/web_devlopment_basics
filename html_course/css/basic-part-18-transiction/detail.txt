@@ -1,0 +1,18 @@
+1.  transition-property
+2.  transition-duration
+3.  transition-dealay
+4.  transitio-timing-function
+5.  transition
+
+Units        |              Description
+
+ease                start slow ->fast->end slow 
+
+linear              maintain same speed fro start to end 
+
+ease-in             slow start 
+
+ease-out            slow-end
+
+ease-in-out         slow start and end
+

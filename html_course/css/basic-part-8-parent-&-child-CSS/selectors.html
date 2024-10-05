@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+      
+       /*direct child */
+       .child > p{
+        color:blue;
+       }
+       .child + p{
+        color:blue;
+       }
+       div[class="box"]{
+        background-color:green;
+       }
+    </style>
+</head>
+<body>
+    <h1>Selectors</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae blanditiis doloribus quasi molestias fuga asperiores corporis atque quo at temporibus!</p>
+    <h3>ajay educations</h3>
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, doloremque?</p>
+    </div>
+
+    <div class="child">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor placeat fuga ipsum rem modi, aliquid accusantium porro cupiditate. Consectetur aspernatur cupiditate fugit, sint sapiente earum asperiores perferendis itaque laborum voluptatem!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor placeat fuga ipsum rem modi, aliquid accusantium porro cupiditate. Consectetur aspernatur cupiditate fugit, sint sapiente earum asperiores perferendis itaque laborum voluptatem!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor placeat fuga ipsum rem modi, aliquid accusantium porro cupiditate. Consectetur aspernatur cupiditate fugit, sint sapiente earum asperiores perferendis itaque laborum voluptatem!</p>
+        <div class="gchild">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem nulla laboriosam veritatis iusto tempore a optio debitis alias necessitatibus porro.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem nulla laboriosam veritatis iusto tempore a optio debitis alias necessitatibus porro.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem nulla laboriosam veritatis iusto tempore a optio debitis alias necessitatibus porro.</p>
+        </div>
+    </div>
+</body>
+</html>

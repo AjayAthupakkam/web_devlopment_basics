@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psudo selectors</title>
+    <style>
+        :root{
+            --bgcolor:tomato;
+            --height:300px;
+            --width:300px;
+            --color:blue;
+        }
+        .box{
+            background-color: var(--bgcolor);
+            height: var(--height);
+            width:var(--width);
+            color:var(--color);
+        }
+    </style>
+</head>
+<body>
+    <h1>psudo selectors</h1>
+    <div class="box"> hii hello
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam recusandae officia quasi temporibus soluta!s</p>
+    </div>
+</body>
+</html>
+<!--1. simple selectors
+    *element
+    *class
+    *id
+    *universal
+2. combinators selectors
+    *descendant
+    *direct child ( .box>p)
+    *adjecent siblings(.box+p)
+    *general siblings(.box~p)
+3.Attribute selectors
+4.Pseudo class selectors 
+5.Pseudo element selectors -->

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table styling</title>
+    <style>
+        table{
+            border-collapse:collapse;
+        }
+        table td,th{
+            text-align: center;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        table tr:nth-of-type(even){
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table Styling</h1>
+    <table width="100%" border="2px" cellpadding="10px">
+    <table width="100%" border="2px" cellspacing="5px">
+        <caption>Student Details</caption>
+        <colgroup>
+            <col style="width: 50px;">
+            <col style="width: 25px;">
+            <col style="width: 50px;">
+        
+        </colgroup>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+    </thead>
+    <tbody>        
+        <tr>
+            <td>Ajay</td>
+            <td>21</td>
+            <td >male</td>
+        </tr>
+        <tr>
+            <td>bharath</td>
+            <td>21</td>
+            <td>male</td>
+        </tr>
+        <tr>
+            <td>ab</td>
+            <td>21</td>
+            <td>male</td>
+        </tr>
+        <tr>
+            <td>vv</td>
+            <td>21</td>
+            <td>male</td>
+        </tr>
+        <tr>
+            <td>bb</td>
+            <td>21</td>
+            <td>male</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr><td colspan="3">finally</td></tr>
+    </tfoot>
+
+    </table>
+</body>
+</html>
